@@ -76,6 +76,7 @@ public class AddProduct extends HttpServlet{
                         String fileName=fileItem.getName();
                         System.out.println("文件名为:"+fileName);
                         System.out.println("测试git");
+                        System.out.println("测试git2");
                         //文件重命名
                       String newPicName=  PicStringUtils.getReplaceName(fileName);
 
