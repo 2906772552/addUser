@@ -14,9 +14,9 @@ public class DBUtils {
 
 	
 	static String DriverClassName = "com.mysql.jdbc.Driver";
-	static String url = "jdbc:mysql://127.0.0.1:3306/milk_tea_mall?characterEncoding=utf-8";
+	static String url = "jdbc:mysql://192.168.132.128:3306/milk_tea_mall?characterEncoding=utf-8";
 	static String userName = "root";
-	static String password = "123456";
+	static String password = "123";
 
 	static{
 		try {
